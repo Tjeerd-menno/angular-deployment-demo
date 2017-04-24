@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
+import { AppConfiguration, provideAppConfiguration } from './app-configuration';
+
 import { AppComponent } from './app.component';
+import { ConfigSpyComponent } from './config-spy/config-spy.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConfigSpyComponent
   ],
   imports: [
     BrowserModule,
@@ -16,7 +20,15 @@ import { AppComponent } from './app.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    AppConfiguration,
+    {
+      provide: APP_INITIALIZER,
+      useFactory: provideAppConfiguration,
+      deps: [AppConfiguration],
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

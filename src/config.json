@@ -1,0 +1,14 @@
+{
+    "pageSize": 10,
+    "production": false,
+    "apiSettings": {
+        "apiBaseUrl": "http://localhost:86/api/"
+    },
+    "googleApiSettings": {
+        "apiKey": "YOUR_API_KEY_HERE_Rv4W5pjA4VMXD2zyByU7GsteFGktsU"
+    },
+    "googleMapsSettings": {
+        "maxNumberOfMarkers": 25
+    },
+    "localStorageExpirationInSeconds": 3600
+}

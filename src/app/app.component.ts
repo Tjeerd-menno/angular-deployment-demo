@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'octo works!';
+  title = 'Deploying Angular Apps with Octopus Deploy.';
 }
