@@ -17,4 +17,4 @@ Run `npm run package -- --octopusApiUrl "<YOUR_OCTOPUS_URL_HERE>" --octopusApiKe
 
 ## Creating & Pushing Node Projects
 
-There's a guide on creating & pushing Node Project on the Octopus Deploy website.  `https://octopus.com/docs/guides/node-on-nix-deployments/create-&-push-node.js-project`
+There's a guide on creating & pushing Node Project on the Octopus Deploy website [here](https://octopus.com/docs/guides/node-on-nix-deployments/create-&-push-node.js-project`).
