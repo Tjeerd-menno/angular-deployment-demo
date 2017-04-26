@@ -15,3 +15,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `npm run package -- --octopusApiUrl "<YOUR_OCTOPUS_URL_HERE>" --octopusApiKey "<YOUR_OCTOPUS_API_KEY_HERE>"` to build a production package and publish it to the Octopus package feed.
 
+## Creating & Pushing Node Projects
+
+There's a guide on creating & pushing Node Project on the Octopus Deploy website.  `https://octopus.com/docs/guides/node-on-nix-deployments/create-&-push-node.js-project`
