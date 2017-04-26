@@ -1,7 +1,7 @@
 # Octo Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
-It demonstrates using the Angular APP_INITIALIZER for loading a configuration file which gets populated during deployment (using Octopus Deploy)
+It demonstrates using the Angular [APP_INITIALIZER](https://angular.io/docs/ts/latest/api/core/index/APP_INITIALIZER-let.html) for loading a configuration file which gets populated during deployment (using Octopus Deploy)
 
 ## Development server
 
